@@ -1,4 +1,22 @@
-.container {
+body {
     background-image: url(img/trash.png);
     background-size: cover;
+}
+
+.primary_header{
+    background-color: #ffff00;
+    background-size: cover;
+    padding: 1em;
+}
+
+.primary_header_text{
+    font-size: 3em;
+    text-align: center;
+    color: green;
+}
+
+.content {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1.5em;
 }

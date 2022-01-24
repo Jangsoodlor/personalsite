@@ -1,6 +1,8 @@
-body {
+html,body {
     background-image: url(img/trash.png);
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .primary_header{
@@ -15,8 +17,35 @@ body {
     color: green;
 }
 
+.nav{
+    text-align: center;
+    font-size: 2em;
+}
+
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+    padding: 0 1em;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: black;
+    text-decoration: none;
+}
+
 .content {
     max-width: 1024px;
     margin: 0 auto;
     padding: 0 1.5em;
+    position: relative;
 }
+
+.longtxt{
+    background-color: white;
+    padding: 1em;
+}
+

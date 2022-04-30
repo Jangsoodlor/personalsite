@@ -53,20 +53,18 @@ body {
     padding: 0 5%;
 }
 
-.container{
-    margin: 0 auto;
-    padding: 0 1.5em;
-}
 
-.content{
-    margin: 1em;
-    font-size: 1em;
-    color: #3c3836;
-}
 
 .content_header{
     font-size: 2em;
 }
+
+.foot_container{
+    margin: 0 auto;
+    padding: 0 1.5em;
+    display: inline-block;
+}
+
 
 .primary_footer{
     background-color: #689d6a;
@@ -76,6 +74,7 @@ body {
 
 .main_footer_container{
     display:flex;
+    padding: 0 1.5em;
 }
 
 .main_footer_container ul{
@@ -89,6 +88,7 @@ body {
     color: #fabd2f;
 }
 
+/* foot */
 
 .footernav li{
     padding: 0 .5em
@@ -103,14 +103,30 @@ body {
 
 /* mainpage */
 
-.ytvid{
-    float: right;
-    padding: 1em;
+.index_container{
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    display: inline-block;
+    align-items: center;
 }
 
-.testdiv{
-    padding: 1em;
-    display: inline;
+.clearfix{
+    overflow: auto;
+}
+.introduction{
+    max-width: 100%;
+}
+
+.introduction img{
+    float: right;
+    max-height: 300px;
+    align-items: right;
+    margin: 0 1.5em;
+}
+
+.content{
+    font-size: 1em;
+    color: #3c3836;
 }
 
 /* skin */
@@ -148,3 +164,9 @@ body {
     padding: 0.5em 0;
     font-size: 1.5em;
 } */
+
+.achievements{
+    display: block;
+    font-size: 10em;
+    text-align: center;
+}

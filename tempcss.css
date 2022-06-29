@@ -69,7 +69,13 @@ body {
 .primary_footer{
     background-color: #689d6a;
     color: #fabd2f;
-    padding: .25em 0;
+    /* padding: .25em 0; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    
 }
 
 .main_footer_container{
@@ -168,5 +174,11 @@ body {
 .achievements{
     display: block;
     font-size: 10em;
+    text-align: center;
+}
+
+.petanque{
+    display: block;
+    font-size: 4em;
     text-align: center;
 }

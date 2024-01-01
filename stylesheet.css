@@ -1,3 +1,33 @@
-.body{
-    display: block;
+:root{
+    --bg-color: #2E3440;
+    --text-color: #eceff4;
+    --link: #8FBCBB;
+    --link-hover: #A3BE8C;
+    --link-hover-bg: #434C5E;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0 1%;
+    display: inline-box;
+}
+
+.headfoot a{
+    display: inline-flex;
+    color: var(--link);
+}
+
+.headfoot a:hover{
+    color: var(--link-hover);
+    background-color: var(--link-hover-bg);
+}
+
+#head{
+    color:#EBCB8B;
+}
+
+#weejio{
+    display: flex;
 }
